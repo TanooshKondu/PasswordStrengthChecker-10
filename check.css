@@ -114,29 +114,3 @@ body {
   color: #18e605;
   filter: drop-shadow(0 0 5px#18e605);
 }
-
-.show {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 100%;
-  background: #333;
-  border: 6px solid #222;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.show::before {
-  content: "show";
-  font-size: 10px;
-  color: aliceblue;
-  letter-spacing: 0.9px;
-  text-transform: uppercase;
-}
-
-.show.hide::before {
-  content: "Hide";
-}
